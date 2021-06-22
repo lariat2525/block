@@ -1,0 +1,184 @@
+@font-face {
+
+	font-family: 'MyFont-first';
+     src: url(Streetwear.otf);
+    /*  タイトル用 */
+}
+@font-face{
+
+     font-family:'MyFont-second';
+     src: url(KouzanMouhituFontOTF.otf);
+     /* サブメニュー欄用 */
+}
+.body{
+
+    margin:0;
+    height:100vh;  /* ボディの高さを画面と合わせる */
+    font-size: 62.5%;   /* フォントの基準 */
+    background-image:url("../img/仮背景２.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.header{ /* コンテンツ*/
+
+    height:inherit;/* 継承 */
+    width:100%;
+    display:flex;
+}
+
+.title{
+
+    font-size:5.65rem;
+    font-style:italic;
+    font-family:'Haettenschweiler';
+    position: relative;
+    margin:0 0 0 40px;
+    height:12%;
+    top:6px;
+    border-bottom: solid 5.8px black;
+    width:100%;
+  }
+.nav{
+    
+}
+ul{/* ULの初期設定リセット */
+
+    list-style: none;
+}
+a{
+    
+    color:black;
+    text-decoration: none;
+}
+.menulist{/* メニュー欄のおおまかな設定 */
+    
+    display: flex;
+    font-size:2.97rem;
+    font-family:'Haettenschweiler';
+    font-style:italic;
+    margin:0 0 0 100px;
+    width:40%;
+    position: absolute;
+    top:48px;
+    left:217px;
+    z-index:8;
+    /* letter-spacing:0.5px;/* 文字間隔 */
+}
+.menulist li{/* メニュー部品の上部間隔 */
+
+    margin-top:8px;
+    /* float:left; */
+    margin:0 0 0 20px;
+}
+.menu-span{
+
+    margin:0 0 0 25px;
+    font-weight:700;
+}
+.me img{
+
+    min-width:550px;
+    height:695px;
+    position: relative;
+    top:-32px;
+    left:110px;
+    z-index:1;
+}
+#canvas{
+
+    position: absolute;
+    z-index:2;
+   /*  background-color:lightblue; */
+    left:300px;
+}
+.profiles{
+    
+    position:absolute;
+}
+
+.pf-1{
+
+    position: absolute;
+    bottom:502px;
+    left:866px;
+    width:550px;
+    height:100px;
+}
+
+.myname{
+
+    margin        : auto;                 /* サンプル用 中央寄せ  */
+    box-sizing    : border-box;           /* 罫線も含む長さ       */
+    width         : 100%;                 /* BOXの幅              */
+    max-width     : 800px;                /* BOXの最大幅          */
+    
+    height        : 105px;                /* BOXの高さ            */
+    padding       : 10 0 0 0;                 /* 文字の位置合わせ     */
+    font-size     : 4.0rem;                 /* 文字サイズ           */
+    text-align    : center;               /* 文字位置             */
+    color         : #000000;              /* 文字色               */
+    font-family:'Haettenschweiler';
+    font-style:italic;
+    font-weight:500;
+    background    : white;                 /* BOXの背景色          */
+    border        : 7px solid black;
+    letter-spacing:1px;
+}
+
+.pf-2{
+
+    position: absolute;
+    bottom:295px;
+    left:815px;
+    width:600px;
+    height: 100px;
+}
+.mybirth{
+
+    margin        : auto;                 /* サンプル用 中央寄せ  */
+    box-sizing    : border-box;           /* 罫線も含む長さ       */
+    width         : 100%;                 /* BOXの幅              */
+    max-width     : 800px;                /* BOXの最大幅          */
+    height        : 105px;                /* BOXの高さ            */
+    padding       :15px 0 0 0px;                 /* 文字の位置合わせ     */
+    font-size     : 3.85rem;                 /* 文字サイズ           */
+    text-align    : center;               /* 文字位置             */
+    color         : #000000;              /* 文字色               */
+    font-family:'Haettenschweiler';
+    font-style:italic;
+    font-weight:500;
+    background    : white;              /* BOXの背景色          */
+    border        : 7px solid black;
+    letter-spacing:2px;
+}
+.pf-sub{
+    margin-right:30px;
+    font-size:2.8rem;
+    font-weight:100; 
+    letter-spacing:2.5px;
+}
+.pf-3{
+
+    position: absolute;
+    bottom:100px;
+    left:765px;
+    width:650px;
+    height: 100px;
+}
+.mymail{
+
+    margin        : auto;                 /* サンプル用 中央寄せ  */
+    box-sizing    : border-box;           /* 罫線も含む長さ       */
+    width         : 100%;                 /* BOXの幅              */
+    max-width     : 800px;                /* BOXの最大幅          */
+    height        : 105px;                /* BOXの高さ            */
+    padding      :18px 0 0 10px;                 /* 文字の位置合わせ     */
+    font-size     : 2.2rem;                 /* 文字サイズ           */
+    text-align    : center;               /* 文字位置             */
+    color         : #000000;              /* 文字色               */
+    font-family:'Haettenschweiler';
+    font-style:italic;
+    font-weight:500;
+    background    : white;              /* BOXの背景色          */
+    border        : 7px solid black;
+}

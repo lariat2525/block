@@ -1,0 +1,59 @@
+<html lang=“ja”>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!-- レスポンシブ化のため -->
+        <title>BlockPortfolio</title>
+        <link rel="stylesheet" href="css/normalize.css"><!-- リセットCSS -->
+        <link rel="stylesheet" href="css/profile.css" media="(min-width: 0px )"><!-- メインのCSS -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"><!-- フォントアウェイサム -->
+   
+
+    </head>
+    <body>
+        <body class="body">
+        
+            <div class="container"><!-- コンテンツ -->
+                <div class="header">
+                    <div class="title">
+                        Profile
+                    </div>
+                    <div class="nav"><!-- メニュー部分 -->
+                        <nav>
+                            <ul class="menulist">
+                                <li class="home-pt"><!-- まだ使わないとこ -->
+                                    <a href="block.html">Home</a><span class="menu-span">/</span>
+                                </li>
+                                <li class="profile-pt"><!-- 自己紹介　→　名前、誕生日、スキルシートetc -->
+                                    <a href="skill.html">Skill</a><span class="menu-span">/</span>
+                                </li>
+                                <li class="gallery-pt"><!-- 今まで作ったサイトの紹介　歴史 -->
+                                    <a href="gallery.html">Gallery</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="profiles">
+                    <div class="me">
+                        <canvas id="canvas" width="600px" height="600px"></canvas>
+                        <img src="img/主人公.png" alt="私">
+                    </div>
+                    <div class="pf-1">
+                        <p class="myname"><span class="pf-sub">Name:</span>Ura Yuto</p>
+                    </div>
+                    <div class="pf-2">
+                        <p class="mybirth"><span class="pf-sub">Birth:</span>1996/07/04</p>
+                    </div>
+                    <div class="pf-3">
+                        <p class="mymail"><span class="pf-sub ii">Mail:</span>Uran252525@Gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <script type="text/javascript" src="js/profile.js"></script>
+            <script src="js/anime.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Jクエリ -->
+        </body>
+        
+    </body>

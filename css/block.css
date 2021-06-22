@@ -1,0 +1,114 @@
+@font-face {
+
+	font-family: 'MyFont-first';
+     src: url(Streetwear.otf);
+    /*  タイトル用 */
+}
+@font-face{
+
+     font-family:'MyFont-second';
+     src: url(Kilowatt-Regular.otf);
+     /* サブメニュー欄用 */
+}
+
+.body{
+
+     margin:0;
+     height:100vh;  /* ボディの高さを画面と合わせる */
+     font-size: 62.5%;   /* フォントの基準 */
+     background-image:url("../img/仮背景.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+}
+.container{ /* コンテンツ*/
+
+     height:inherit;/* 継承 */
+}
+.main{/*  タイトル部分のリセット */
+     
+     margin:0; 
+     padding:0;
+}
+.main-title{/* タイトルの大まかかな設定 */
+
+     margin:0;
+     font-family:"MyFont-first";
+     color:black;
+     font-weight:400;
+     position: relative;
+     z-index:10;
+}
+.title-pt1{/* URAYUTOの部品 */
+
+     position: relative;
+     text-align:center;
+     top:70px;
+     right:15px;
+     font-size:5.4rem;
+}
+.title-pt2{/* PORTFORIOの部品 */
+
+     position: relative;
+     text-align:center;
+     top:95px;
+     right:40px;
+     font-size:7rem;
+}
+.cloud{
+
+     margin:0;
+     padding:0;
+}
+.cloud img{
+
+     width:255px;
+     z-index:8;
+}
+.cloud-pt1{
+
+     position:absolute;
+     top:20px;
+     right:250px;
+}
+.cloud-pt2{
+
+     position:absolute;
+     left:140px;
+     top:140px;
+}
+.nav{
+
+}
+ul{/* ULの初期設定リセット */
+
+     list-style: none;
+}
+a{
+     
+     color:black;
+     text-decoration: none;
+}
+.menulist{/* メニュー欄のおおまかな設定 */
+     
+     font-size:3.87rem;
+     font-family:'Haettenschweiler';
+     font-style:italic;
+     margin:0 0 0 35px;
+     width:40%;
+     position: relative;
+     top:250px;
+     letter-spacing:0.5px;/* 文字間隔 */
+}
+.menulist li{/* メニュー部品の上部間隔 */
+
+     margin-top:8px;
+}
+.wait-pt{
+
+}
+.profile-pt{
+
+}
+.gallery-pt{
+
+}

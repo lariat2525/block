@@ -1,0 +1,12 @@
+@font-face {
+
+	font-family: 'MyFont-first';
+     src: url(Streetwear.otf);
+    /*  タイトル用 */
+}
+@font-face{
+
+     font-family:'MyFont-second';
+     src: url(Kilowatt-Regular.otf);
+     /* サブメニュー欄用 */
+}
